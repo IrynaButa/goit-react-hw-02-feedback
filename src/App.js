@@ -1,5 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
+import "modern-normalize/modern-normalize.css";
 
 function App() {
   return (
