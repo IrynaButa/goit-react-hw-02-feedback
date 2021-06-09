@@ -1,0 +1,62 @@
+.statistics {
+  display: inline-block;
+  width: 335px;
+  margin: 15px;
+  border: solid 1px rgb(211, 221, 221);
+  background-color: #fff;
+}
+.container {
+  width: 400px;
+
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.title {
+  font-size: 28px;
+  color: #1d5f36;
+  padding: auto;
+  margin: 30px;
+}
+.notification {
+  font-size: 16px;
+  color: #da5e5e;
+  padding: auto;
+  margin: 30px;
+}
+.section {
+  display: inline-block;
+
+  text-align: center;
+  margin: 20px;
+  width: 400px;
+  height: 300px;
+  outline: 4px solid rgb(176, 219, 136);
+}
+
+.buttons {
+  font-weight: 700;
+  font-size: 16px;
+  height: 40px;
+  width: 90px;
+  margin: 10px;
+  border-radius: 30px;
+  background-color: rgb(157, 219, 55);
+  /* background-image: url(./like.svg);
+	background-repeat: no-repeat; */
+}
+
+.vote {
+  font-weight: 700;
+  font-size: 16px;
+  color: rgb(13, 14, 13);
+}
+
+.totalvotes {
+  font-weight: 700;
+  font-size: 20px;
+  color: rgb(12, 89, 141);
+}
